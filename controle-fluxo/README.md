@@ -1,18 +1,23 @@
-## Getting Started
+# Contador
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este é um simples projeto Java que lê dois parâmetros do usuário, verifica se o segundo parâmetro é maior que o primeiro, e imprime uma contagem com base na diferença entre os dois parâmetros. Se o segundo parâmetro não for maior que o primeiro, uma exceção personalizada é lançada.
 
-## Folder Structure
+## Funcionalidades
 
-The workspace contains two folders by default, where:
+- Ler dois números inteiros do usuário.
+- Verificar se o segundo número é maior que o primeiro.
+- Imprimir uma contagem de números baseada na diferença entre os dois números.
+- Lançar uma exceção personalizada se o segundo número não for maior que o primeiro.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Requisitos
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- Java Development Kit (JDK) 8 ou superior.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Como usar
 
-## Dependency Management
+1. Clone este repositório ou baixe os arquivos.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+2. Compile o arquivo `Contador.java`:
+
+   ```sh
+   javac Contador.java
